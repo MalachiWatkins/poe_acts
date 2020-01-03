@@ -1,0 +1,38 @@
+Path of Exile locations by acts
+
+in order
+  Act 1
+    Lioneye's watch 1%
+    The Coast
+    Mud Flats
+    Tidal Island
+    Submerged Passage
+    The ledge
+    Flooded Depths  50%
+    The climb
+    The lower prison
+    The upper prison
+    The Prisoners gate
+    The ship graveyard
+    The cavern of wrath
+    The cavern of anger %100
+
+
+   Act 2
+    the southern forest
+    the old fields
+    the crossroads
+    Chamber of sin 1
+    chamber of sin 2
+    broken bridge
+    the riverways
+    the western forest
+    weavers chambers
+    the wetlands
+    the vaal ruins
+    the northern forest
+    the caverns
+    ancient pyramid
+
+    poe_cli = "C:\\Program Files(x86)\\Steam\\SteamApps\\common\\Path of Exile\\logs\\Client.txt"
+    cli_file = open()
