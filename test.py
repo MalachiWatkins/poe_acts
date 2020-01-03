@@ -1,24 +1,3 @@
-def check():
-    place = 1
-    find1 = place
-    search_for = Act1dict[find1]
-    search1 = find1
-    percent1 = 100
-    while place < 14:
-        with open('Client.txt') as log_file:
-            if search_for in log_file.read():
-                print('Completed')
-                print(percent1)
-                print(search_for)
-            else:
-                percent1 - 7.14
-                print("No")
-                print(percent1)
-        place += 1
-
-    return
-
-
 Act1dict = {
     1: "Lioneye's Watch",
     2: "The Coast",
@@ -35,4 +14,36 @@ Act1dict = {
     13: "The Cavern of Wrath",
     14: "The Cavern of Anger",
 }
-check()
+place_1 = 1
+place1 = place_1
+search1 = Act1dict[place1] ## find places in act 1 dict
+
+ ## while loop var
+
+
+
+
+
+## while loop
+
+while place_1 < 14:
+    print('PH')
+    place_1 += 1
+    with open('Client.txt') as logfile:
+        if search1 in logfile.read():
+            print('PH')
+            print(search1)
+        else:
+            print("PH_NO")
+
+
+
+
+else:
+    print('PH')
+with open('Client.txt') as logfile:
+    if search1 in logfile.read():
+        print('PH')
+        print(search1)
+    else:
+        print("PH_NO")

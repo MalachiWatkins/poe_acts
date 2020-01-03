@@ -1,6 +1,7 @@
-
+percent1 = 100
 
 def check():
+    global percent1
     place_1 = Place
     search_for = Act1dict[place_1]
     print(search_for)
@@ -11,8 +12,8 @@ def check():
 
         else:
             print("No")
-
-
+            percent1 -= 10
+            print(percent1)
         return
 
 Act1dict = {
@@ -32,6 +33,7 @@ Act1dict = {
     14: "The Cavern of Anger",
 
 }
+
 Place = 1
 while Place < 14:
     check()
