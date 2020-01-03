@@ -804,8 +804,8 @@ flags: 129
 2019/12/19 09:21:58 3018900 8e8 [DEBUG Client 5996] Resyncing 356
 2019/12/19 09:21:58 3018900 8e8 [DEBUG Client 5996] Resyncing 355
 2019/12/19 09:21:58 3018900 8e8 [DEBUG Client 5996] Resyncing 161
-2019/12/19 09:21:58 3018900 8e8 [DEBUG Client 5996] Resyncing 445
-2019/12/19 09:21:58 3018900 8e8 [DEBUG Client 5996] Resyncing 162
+2019/12/19 09:21:58 3018900 8e8 [DEBUG Client 5996] Resyncing 445T
+2019/12/19 09:21:58 3018900 8e8 [DEBUG Client 5996] Resyncing 162The floo
 2019/12/19 09:21:58 3018900 8e8 [DEBUG Client 5996] Resyncing 160
 2019/12/19 09:21:58 3018900 8e8 [DEBUG Client 5996] Resyncing 446
 2019/12/19 09:21:58 3018900 8e8 [DEBUG Client 5996] Resyncing 163
@@ -1010,7 +1010,7 @@ flags: 129
 2019/12/19 09:52:38 4858853 ac9 [INFO Client 5996] : You have entered Desert Hideout.
 2019/12/19 09:57:02 5122308 ac9 [INFO Client 5996] : Item on cursor destroyed.
 2019/12/19 09:58:57 ***** LOG FILE OPENING *****
-2019/12/19 09:58:57 ***** LOG FILE OPENING *****
+2019/12/19 09:58:57 ***** LOG FILE OPENING *****Flooded Depths
 2019/12/19 09:58:58 5238357 8a [INFO Client 660] Enumerated adapter: NVIDIA GeForce GTX 980
 2019/12/19 09:58:58 5238482 24b [INFO Client 660] Enumerated device for adapter: NVIDIA GeForce GTX 980. Selected feature level: 45056. Max feature level: 45056
 2019/12/19 09:58:58 5238497 142 [INFO Client 660] Enumerated output for adapter NVIDIA GeForce GTX 980 of \\.\DISPLAY1

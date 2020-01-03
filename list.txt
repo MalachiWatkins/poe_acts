@@ -18,21 +18,8 @@ in order
     The cavern of anger %100
 
 
-   Act 2
-    the southern forest
-    the old fields
-    the crossroads
-    Chamber of sin 1
-    chamber of sin 2
-    broken bridge
-    the riverways
-    the western forest
-    weavers chambers
-    the wetlands
-    the vaal ruins
-    the northern forest
-    the caverns
-    ancient pyramid
+   Ac
+
 
     poe_cli = "C:\\Program Files(x86)\\Steam\\SteamApps\\common\\Path of Exile\\logs\\Client.txt"
     cli_file = open()
