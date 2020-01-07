@@ -1,6 +1,8 @@
+from tkinter import *
+
 percent = 100
 percent2 = 100
-## ahk to run this and display prob trough tkinter
+## ahk to run this
 notinuse = 1
 def check():
     loop_1 = 1
@@ -18,7 +20,7 @@ def check():
             if search_for in myfile.read():
                 notinuse = 1
             else:
-                percent -= 1.66
+                percent -= 1.52
         loop1 += 1
 
     return
@@ -233,10 +235,17 @@ place_2 = 1
 while place_2 < 16:
     check2()
     place_2 += 1
-print('Percentage of Campaign Part 2 Completed', round(percent2),'%')
 
 Place = 1
 while Place < 16:
     check()
     Place += 1
-print('Percentage of Campaign Part 1 Completed', round(percent),'%')
+master = Tk()
+perc1 = "Percentage of Campaign Part 1 Completed", round(percent),'%'
+perc2 = "Percentage of Campaign Part 2 Completed", round(percent2),'%'
+master.minsize(width=100, height=20)
+w = Label(master, text=perc1)
+p = Label(master, text=perc2)
+w.pack()
+p.pack()
+mainloop()
