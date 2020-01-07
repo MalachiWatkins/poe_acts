@@ -1,4 +1,5 @@
 percent = 100
+percent2 = 100
 ## ahk to run this and display prob trough tkinter
 notinuse = 1
 def check():
@@ -26,29 +27,19 @@ def check2():
     loop2 = loop_2
 
     while loop2 < 6:
-        global percent
+        global percent2
         global notinuse
-        place_2 = place_2
+        place2 = place_2
         actsdict2 = Act_names2[loop2]
         Acts = actsdict2
         search_for2 = Acts[place_2]
-
         with open('Client.txt') as myfile:
             if search_for2 in myfile.read():
                 notinuse = 1
             else:
-                print("No 2")
-                percent -= PLACEHOLDER
+                percent2 -= 1.56
         loop2 += 1
     return
-
-    loop_2 = 1
-    loop2 = loop_2
-
-
-
-    return
-
 
 Act1 = {
     1: "Lioneye's Watch",
@@ -223,9 +214,6 @@ Act_10 = {
     15: "Got Instance Details from login server",
 }
 
-
-
-##
 Act_names = {
     1: Act1,
     2: Act2,
@@ -240,6 +228,13 @@ Act_names2 = {
     4: Act_9,
     5: Act_10,
 }
+
+place_2 = 1
+while place_2 < 16:
+    check2()
+    place_2 += 1
+print('Percentage of Campaign Part 2 Completed', round(percent2),'%')
+
 Place = 1
 while Place < 16:
     check()
