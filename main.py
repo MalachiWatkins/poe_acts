@@ -1,36 +1,53 @@
-percent1 = 100
+percent = 100
 ## ahk to run this and display prob trough tkinter
-notinuse1 = 1
+notinuse = 1
 def check():
-    loop_2 = 1
-    loop2 = loop_2
+    loop_1 = 1
+    loop1 = loop_1
 
-    while loop2 < 6:
-        global percent1
-        global notinuse1
+    while loop1 < 6:
+        global percent
+        global notinuse
         place_1 = Place
-        actsdict = Act_names[loop2]
+        actsdict = Act_names[loop1]
         Acts = actsdict
         search_for = Acts[place_1]
 
         with open('Client.txt') as myfile:
             if search_for in myfile.read():
-                notinuse1 = 1
+                notinuse = 1
             else:
-                print("No")
-                percent1 -= 1.52
-                print('Percentage of Campaign Completed', percent1,'%')
-        loop2 += 1
+                percent -= 1.66
+        loop1 += 1
+
     return
 def check2():
+    loop_2 = 1
+    loop2 = loop_2
+
+    while loop2 < 6:
+        global percent
+        global notinuse
+        place_2 = place_2
+        actsdict2 = Act_names2[loop2]
+        Acts = actsdict2
+        search_for2 = Acts[place_2]
+
+        with open('Client.txt') as myfile:
+            if search_for2 in myfile.read():
+                notinuse = 1
+            else:
+                print("No 2")
+                percent -= PLACEHOLDER
+        loop2 += 1
+    return
+
+    loop_2 = 1
+    loop2 = loop_2
 
 
-    return 
 
-
-
-
-
+    return
 
 
 Act1 = {
@@ -120,45 +137,91 @@ Act5 = {
 }
 
 ###Second half
-Act6 = {
-
+Act_6 = {
+    1: "The Twilight Strand",
+    2: "The Coast",
+    3: "",
+    4: " ",
+    5: " ",
+    6: " ",
+    7: " ",
+    8: " ",
+    9: " ",
+    10: " ",
+    11: " ",
+    12: " ",
+    13: " ",
+    14: " ",
+    15: " ",
 }
-Act7 = {
-
+Act_7 = {
+    1: " ",
+    2: " ",
+    3: " ",
+    4: " ",
+    5: " ",
+    6: " ",
+    7: " ",
+    8: " ",
+    9: " ",
+    10: " ",
+    11: " ",
+    12: " ",
+    13: " ",
+    14: " ",
+    15: " ",
 }
-Act8 = {
-
+Act_8 = {
+    1: " ",
+    2: " ",
+    3: " ",
+    4: " ",
+    5: " ",
+    6: " ",
+    7: " ",
+    8: " ",
+    9: " ",
+    10: " ",
+    11: " ",
+    12: " ",
+    13: " ",
+    14: " ",
+    15: " ",
 }
-Act9 = {
-
+Act_9 = {
+    1: " ",
+    2: " ",
+    3: " ",
+    4: " ",
+    5: " ",
+    6: " ",
+    7: " ",
+    8: " ",
+    9: " ",
+    10: " ",
+    11: " ",
+    12: " ",
+    13: " ",
+    14: " ",
+    15: " ",
 }
-Act10 = {
-
+Act_10 = {
+    1: " ",
+    2: " ",
+    3: " ",
+    4: " ",
+    5: " ",
+    6: " ",
+    7: " ",
+    8: " ",
+    9: " ",
+    10: " ",
+    11: " ",
+    12: " ",
+    13: " ",
+    14: " ",
+    15: " ",
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -170,8 +233,8 @@ Act_names = {
     4: Act4,
     5: Act5,
 }
-
 Place = 1
 while Place < 16:
     check()
     Place += 1
+print('Percentage of Campaign Completed', round(percent),'%')
