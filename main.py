@@ -1,21 +1,21 @@
 percent1 = 100
 ## ahk to run this and display prob trough tkinter
+notinuse1 = 1
 def check():
     loop_2 = 1
     loop2 = loop_2
 
     while loop2 < 6:
         global percent1
+        global notinuse1
         place_1 = Place
         actsdict = Act_names[loop2]
         Acts = actsdict
         search_for = Acts[place_1]
-    
 
         with open('Client.txt') as myfile:
             if search_for in myfile.read():
-                print('')
-
+                notinuse1 = 1
             else:
                 print("No")
                 percent1 -= 1.52
