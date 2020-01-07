@@ -22,6 +22,16 @@ def check():
                 print('Percentage of Campaign Completed', percent1,'%')
         loop2 += 1
     return
+def check2():
+
+
+    return 
+
+
+
+
+
+
 
 Act1 = {
     1: "Lioneye's Watch",
@@ -109,14 +119,6 @@ Act5 = {
 15: "Got Instance Details from login server"
 }
 
-
-
-
-
-
-
-
-
 ###Second half
 Act6 = {
 
@@ -135,6 +137,32 @@ Act10 = {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##
 Act_names = {
     1: Act1,
     2: Act2,
